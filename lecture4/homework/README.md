@@ -17,7 +17,7 @@ src/
 ## 编译
 
 ```bash
-cd nav_lecture4_hw
+cd lecture4/homework
 colcon build 
 source install/setup.bash
 ```
@@ -26,12 +26,11 @@ source install/setup.bash
 ## 任务一：实现pub和sub的通信
 
 ```bash
-ros2 -h
+ros2 -h     //有忘记的命令就输入-h去查询用法
 ```
-**现象**：启动pub和sub节点后sub节点订阅不到任何消息
 
-提示：
-如果两个节点不能通过话题通信，我们应该如何区查看话题的详细信息（有没有相关的命令）
+**现象**：启动pub和sub节点后sub节点订阅不到任何消息
+提示：如果两个节点不能通过话题通信，我们应该如何区查看话题的详细信息（有没有相关的命令）
 任务一仅修复qos_debugger_pub.cpp的一处或几处代码即可完成
 
 
@@ -40,11 +39,12 @@ ros2 -h
 ## 任务二：为什么收到的消息会丢包？/(ㄒoㄒ)/~~
 
 第一问找到问题并修改代码后，记得重新
-
+```colcon build```
+```source install/setup.bash```
 **现象**：sub会打印黄色的warning输出告诉你丢包的序列，每秒还会打印出丢包率
 
 提示：
-有没有什么命令可以查看节点的配置
+有没有什么命令可以查看节点的配置(ros2 param -h)
 可以通过修复qos_debugger_sub.cpp中的一处或几处代码解决该问题（可能会有多种解决方法）
 
 ## 任务三：把收到的消息的帧率计算并打印出来（放在定时器回调函数中每秒打印一次即可）
