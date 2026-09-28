@@ -1,0 +1,165 @@
+[0.035s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/lecture4/build/nav_hw_interfaces -- -j8 -l8
+[0.359s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_generator_c[0m
+[0.359s] [  3%] Built target nav_hw_interfaces__cpp
+[0.359s] [  6%] Built target nav_hw_interfaces__rs
+[0.359s] [ 15%] Built target nav_hw_interfaces__rosidl_generator_c
+[0.359s] [ 15%] Built target ament_cmake_python_copy_nav_hw_interfaces
+[0.359s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_cpp[0m
+[0.359s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_introspection_c[0m
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_c[0m
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.360s] [ 25%] Built target nav_hw_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.360s] [ 34%] Built target nav_hw_interfaces__rosidl_typesupport_introspection_cpp
+[0.360s] [ 43%] Built target nav_hw_interfaces__rosidl_typesupport_c
+[0.360s] [ 53%] Built target nav_hw_interfaces__rosidl_typesupport_introspection_c
+[0.360s] [ 65%] Built target nav_hw_interfaces__rosidl_typesupport_cpp
+[0.360s] [ 71%] Built target nav_hw_interfaces__rosidl_typesupport_fastrtps_c
+[0.360s] [ 71%] Built target nav_hw_interfaces
+[0.360s] [ 75%] Built target nav_hw_interfaces__py
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_generator_py[0m
+[0.360s] [ 81%] Built target nav_hw_interfaces__rosidl_generator_py
+[0.360s] running egg_info
+[0.360s] writing nav_hw_interfaces.egg-info/PKG-INFO
+[0.360s] writing dependency_links to nav_hw_interfaces.egg-info/dependency_links.txt
+[0.360s] writing top-level names to nav_hw_interfaces.egg-info/top_level.txt
+[0.360s] reading manifest file 'nav_hw_interfaces.egg-info/SOURCES.txt'
+[0.360s] writing manifest file 'nav_hw_interfaces.egg-info/SOURCES.txt'
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_c__pyext[0m
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target nav_hw_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.360s] [ 87%] Built target nav_hw_interfaces__rosidl_typesupport_c__pyext
+[0.360s] [ 87%] Built target ament_cmake_python_build_nav_hw_interfaces_egg
+[0.360s] [ 93%] Built target nav_hw_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.360s] [100%] Built target nav_hw_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.366s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/lecture4/build/nav_hw_interfaces -- -j8 -l8
+[0.372s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/lecture4/build/nav_hw_interfaces
+[0.383s] -- Install configuration: ""
+[0.384s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/ament_index/resource_index/rosidl_interfaces/nav_hw_interfaces
+[0.384s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces
+[0.385s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg
+[0.385s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail
+[0.391s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__struct.h
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__functions.h
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__functions.c
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__type_support.h
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/sensor_data.h
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/library_path.sh
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/library_path.dsv
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_generator_c.so
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg
+[0.392s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__type_support.c
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_introspection_c.so
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_c.so
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/sensor_data.hpp
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__type_support.hpp
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__builder.hpp
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__traits.hpp
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__struct.hpp
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/dds_fastrtps
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[0.393s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/include/nav_hw_interfaces/nav_hw_interfaces/msg/detail/sensor_data__type_support.cpp
+[0.394s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.394s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_typesupport_cpp.so
+[0.394s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/pythonpath.sh
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/pythonpath.dsv
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info
+[0.395s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.395s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.395s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.395s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/__init__.py
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/__init__.py
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_sensor_data.py
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg/_sensor_data_s.c
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_c.c
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/libnav_hw_interfaces__rosidl_generator_py.so
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.395s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/_nav_hw_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.416s] Listing '/home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces'...
+[0.417s] Listing '/home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/msg'...
+[0.417s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/local/lib/python3.10/dist-packages/nav_hw_interfaces/nav_hw_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/lib/libnav_hw_interfaces__rosidl_generator_py.so
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/rust
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/src
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/src/lib.rs
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/src/msg
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/src/msg/rmw.rs
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/src/msg.rs
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/build.rs
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/rust/Cargo.toml
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/msg/SensorData.idl
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/msg/SensorData.msg
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/ament_index/resource_index/package_run_dependencies/nav_hw_interfaces
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/ament_index/resource_index/parent_prefix_path/nav_hw_interfaces
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/ament_prefix_path.sh
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/ament_prefix_path.dsv
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/path.sh
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/environment/path.dsv
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/local_setup.bash
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/local_setup.sh
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/local_setup.zsh
+[0.418s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/local_setup.dsv
+[0.418s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/package.dsv
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/ament_index/resource_index/packages/nav_hw_interfaces
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_cExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_cExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_cppExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_cppExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_pyExport.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/export_nav_hw_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfacesConfig.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/cmake/nav_hw_interfacesConfig-version.cmake
+[0.423s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/nav_hw_interfaces/share/nav_hw_interfaces/package.xml
+[0.455s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/lecture4/build/nav_hw_interfaces

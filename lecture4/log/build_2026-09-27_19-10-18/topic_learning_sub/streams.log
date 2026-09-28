@@ -1,0 +1,22 @@
+[0.683s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_sub': PYTHONPATH=/home/rm/sp_vision_tutorial_27/lecture4/build/topic_learning_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/topic_learning_sub build --build-base /home/rm/sp_vision_tutorial_27/lecture4/build/topic_learning_sub/build install --record /home/rm/sp_vision_tutorial_27/lecture4/build/topic_learning_sub/install.log --install-scripts $base/lib/topic_learning_sub --single-version-externally-managed install_data
+[0.834s] running egg_info
+[0.835s] writing ../../../build/topic_learning_sub/topic_learning_sub.egg-info/PKG-INFO
+[0.836s] writing dependency_links to ../../../build/topic_learning_sub/topic_learning_sub.egg-info/dependency_links.txt
+[0.836s] writing entry points to ../../../build/topic_learning_sub/topic_learning_sub.egg-info/entry_points.txt
+[0.836s] writing requirements to ../../../build/topic_learning_sub/topic_learning_sub.egg-info/requires.txt
+[0.836s] writing top-level names to ../../../build/topic_learning_sub/topic_learning_sub.egg-info/top_level.txt
+[0.837s] reading manifest file '../../../build/topic_learning_sub/topic_learning_sub.egg-info/SOURCES.txt'
+[0.838s] writing manifest file '../../../build/topic_learning_sub/topic_learning_sub.egg-info/SOURCES.txt'
+[0.838s] running build
+[0.838s] running build_py
+[0.838s] running install
+[0.838s] running install_lib
+[0.839s] running install_data
+[0.839s] running install_egg_info
+[0.840s] removing '/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub/lib/python3.10/site-packages/topic_learning_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.840s] Copying ../../../build/topic_learning_sub/topic_learning_sub.egg-info to /home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub/lib/python3.10/site-packages/topic_learning_sub-0.0.0-py3.10.egg-info
+[0.840s] running install_scripts
+[0.853s] Installing qos_subscriber script to /home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub/lib/topic_learning_sub
+[0.853s] Installing subscriber_node script to /home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub/lib/topic_learning_sub
+[0.854s] writing list of installed files to '/home/rm/sp_vision_tutorial_27/lecture4/build/topic_learning_sub/install.log'
+[0.868s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_sub' returned '0': PYTHONPATH=/home/rm/sp_vision_tutorial_27/lecture4/build/topic_learning_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/topic_learning_sub build --build-base /home/rm/sp_vision_tutorial_27/lecture4/build/topic_learning_sub/build install --record /home/rm/sp_vision_tutorial_27/lecture4/build/topic_learning_sub/install.log --install-scripts $base/lib/topic_learning_sub --single-version-externally-managed install_data

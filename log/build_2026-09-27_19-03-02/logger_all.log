@@ -1,0 +1,973 @@
+[0.065s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.065s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x778c6079f7c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x778c6079f220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x778c6079f220>>)
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.154s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rm/sp_vision_tutorial_27'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture1/img) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(lecture2) by extension 'python'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture2' with type 'cmake' and name 'LECTURE_2'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lecture3) by extension 'python'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture3' with type 'cmake' and name 'modern_cpp_opencv_lesson'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/nav_hw_interfaces) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/homework/src/nav_hw_interfaces' with type 'ros.ament_cmake' and name 'nav_hw_interfaces'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/homework/src/qos_debugger) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/homework/src/qos_debugger' with type 'ros.ament_cmake' and name 'qos_debugger'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/build) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/build) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep1/learning_node) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/src/ep1/learning_node' with type 'ros.ament_cmake' and name 'learning_node'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/ros_tutorials) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/roscpp_tutorials) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/rospy_tutorials) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/ros_tutorials/turtlesim) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/src/ep2/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/srv_learning) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/src/ep2/srv_learning' with type 'ros.ament_cmake' and name 'srv_learning'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_pub) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/src/ep2/topic_learning_pub' with type 'ros.ament_cmake' and name 'topic_learning_pub'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep2/topic_learning_sub) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/src/ep2/topic_learning_sub' with type 'ros.ament_python' and name 'topic_learning_sub'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/ep3/launch_learning) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/src/ep3/launch_learning' with type 'ros.ament_cmake' and name 'launch_learning'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/install) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/install) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_c) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/src/learning_pkg_c' with type 'ros.ament_cmake' and name 'learning_pkg_c'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/learning_pkg_python) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture4/src/learning_pkg_python' with type 'ros.ament_python' and name 'learning_pkg_python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/log) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture4/src/log) ignored
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(lecture5) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.246s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'LECTURE_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'LECTURE_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/LECTURE_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/LECTURE_2', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture2', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'learning_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/learning_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/learning_node', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/learning_pkg_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_c', 'symlink_install': False, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'learning_pkg_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'learning_pkg_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/learning_pkg_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_python', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'modern_cpp_opencv_lesson' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'modern_cpp_opencv_lesson' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture3', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'nav_hw_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'nav_hw_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/homework/src/nav_hw_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'srv_learning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'srv_learning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/srv_learning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/srv_learning', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/srv_learning', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'topic_learning_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/topic_learning_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_pub', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'topic_learning_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'topic_learning_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/topic_learning_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_sub', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/turtlesim', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'launch_learning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'launch_learning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/launch_learning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/launch_learning', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/src/ep3/launch_learning', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'qos_debugger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm/sp_vision_tutorial_27/build/qos_debugger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm/sp_vision_tutorial_27/install/qos_debugger', 'merge_install': False, 'path': '/home/rm/sp_vision_tutorial_27/lecture4/homework/src/qos_debugger', 'symlink_install': False, 'test_result_base': None}
+[0.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/homework/src/nav_hw_interfaces' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture4/homework/src/nav_hw_interfaces'
+[0.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_pub' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_pub'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_sub' with build type 'ament_python'
+[0.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_learning_sub', 'ament_prefix_path')
+[0.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/hook/ament_prefix_path.ps1'
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/hook/ament_prefix_path.dsv'
+[0.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/hook/ament_prefix_path.sh'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture2'
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node'
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_c' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_c'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_python' with build type 'ament_python'
+[0.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_python', 'ament_prefix_path')
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.ps1'
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.dsv'
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/hook/ament_prefix_path.sh'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture3'
+[0.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/homework/src/nav_hw_interfaces -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/topic_learning_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_pub -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/topic_learning_pub
+[0.409s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_sub'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/LECTURE_2': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture2 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/LECTURE_2
+[0.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/learning_node
+[0.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/learning_pkg_c
+[0.561s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_python'
+[0.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture3 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/LECTURE_2' returned '0': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture2 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/LECTURE_2
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/LECTURE_2': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/LECTURE_2 -- -j8 -l8
+[0.756s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: sdist, install_lib, install_headers, easy_install, install, bdist_dumb, test, dist_info, bdist_wheel, check, build_ext, symlink_data, install_egg_info, bdist, develop, egg_info, build_scripts, upload, register, bdist_rpm, setopt, install_scripts, alias, bdist_egg, saveopts, build_clib, build, build_py, rotate, clean, upload_docs, install_data
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_sub': PYTHONPATH=/home/rm/sp_vision_tutorial_27/build/topic_learning_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/topic_learning_sub build --build-base /home/rm/sp_vision_tutorial_27/build/topic_learning_sub/build install --record /home/rm/sp_vision_tutorial_27/build/topic_learning_sub/install.log --install-scripts $base/lib/topic_learning_sub --single-version-externally-managed install_data
+[0.813s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: sdist, install_lib, install_headers, easy_install, install, bdist_dumb, test, dist_info, bdist_wheel, check, build_ext, symlink_data, install_egg_info, bdist, develop, egg_info, build_scripts, upload, register, bdist_rpm, setopt, install_scripts, alias, bdist_egg, saveopts, build_clib, build, build_py, rotate, clean, upload_docs, install_data
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_python': PYTHONPATH=/home/rm/sp_vision_tutorial_27/build/learning_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_pkg_python build --build-base /home/rm/sp_vision_tutorial_27/build/learning_pkg_python/build install --record /home/rm/sp_vision_tutorial_27/build/learning_pkg_python/install.log --install-scripts $base/lib/learning_pkg_python --single-version-externally-managed install_data
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/learning_pkg_c
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/learning_pkg_c -- -j8 -l8
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python' for CMake module files
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python' for CMake config files
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_python' returned '0': PYTHONPATH=/home/rm/sp_vision_tutorial_27/build/learning_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/learning_pkg_python build --build-base /home/rm/sp_vision_tutorial_27/build/learning_pkg_python/build install --record /home/rm/sp_vision_tutorial_27/build/learning_pkg_python/install.log --install-scripts $base/lib/learning_pkg_python --single-version-externally-managed install_data
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/lib'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/bin'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/lib/pkgconfig/learning_pkg_python.pc'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/lib/python3.10/site-packages'
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_python', 'pythonpath')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/hook/pythonpath.sh'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/bin'
+[1.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_python)
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/package.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/package.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/package.sh'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/package.bash'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/learning_pkg_python/package.zsh'
+[1.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/learning_pkg_python/share/colcon-core/packages/learning_pkg_python)
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub' for CMake module files
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub' for CMake config files
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/bin'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/pkgconfig/topic_learning_sub.pc'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages'
+[1.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_sub' returned '0': PYTHONPATH=/home/rm/sp_vision_tutorial_27/build/topic_learning_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/topic_learning_sub build --build-base /home/rm/sp_vision_tutorial_27/build/topic_learning_sub/build install --record /home/rm/sp_vision_tutorial_27/build/topic_learning_sub/install.log --install-scripts $base/lib/topic_learning_sub --single-version-externally-managed install_data
+[1.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_learning_sub', 'pythonpath')
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/hook/pythonpath.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/hook/pythonpath.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/hook/pythonpath.sh'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/bin'
+[1.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_learning_sub)
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/package.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/package.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/package.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/package.bash'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/topic_learning_sub/package.zsh'
+[1.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/share/colcon-core/packages/topic_learning_sub)
+[1.053s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/srv_learning' with build type 'ament_cmake'
+[1.054s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/srv_learning'
+[1.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.065s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[1.065s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep2/ros_tutorials/turtlesim'
+[1.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.065s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/srv_learning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep2/srv_learning -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/srv_learning
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson' returned '0': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture3 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson -- -j8 -l8
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep2/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/turtlesim
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/learning_pkg_c -- -j8 -l8
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_pkg_c': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/learning_pkg_c
+[1.219s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'LECTURE_2' because it has no 'install' target
+[1.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(LECTURE_2)
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/LECTURE_2' for CMake module files
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/LECTURE_2' for CMake config files
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/lib/pkgconfig/LECTURE_2.pc'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/lib/python3.10/site-packages'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/bin'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/share/LECTURE_2/package.ps1'
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/LECTURE_2' returned '0': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/LECTURE_2 -- -j8 -l8
+[1.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/share/LECTURE_2/package.dsv'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/share/LECTURE_2/package.sh'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/share/LECTURE_2/package.bash'
+[1.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/LECTURE_2/share/LECTURE_2/package.zsh'
+[1.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/LECTURE_2/share/colcon-core/packages/LECTURE_2)
+[1.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_c)
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c' for CMake module files
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/learning_pkg_c
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c' for CMake config files
+[1.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_c', 'cmake_prefix_path')
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.ps1'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.dsv'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.sh'
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/bin'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/lib/pkgconfig/learning_pkg_c.pc'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/lib/python3.10/site-packages'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/bin'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.ps1'
+[1.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.dsv'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.sh'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.bash'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.zsh'
+[1.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/colcon-core/packages/learning_pkg_c)
+[1.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_pkg_c)
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c' for CMake module files
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c' for CMake config files
+[1.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_pkg_c', 'cmake_prefix_path')
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/hook/cmake_prefix_path.sh'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/bin'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/lib/pkgconfig/learning_pkg_c.pc'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/lib/python3.10/site-packages'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/bin'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.ps1'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.dsv'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.sh'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.bash'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/learning_pkg_c/package.zsh'
+[1.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/learning_pkg_c/share/colcon-core/packages/learning_pkg_c)
+[1.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/topic_learning_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep2/topic_learning_pub -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/topic_learning_pub
+[1.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/topic_learning_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/topic_learning_pub -- -j8 -l8
+[1.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/learning_node
+[1.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/learning_node -- -j8 -l8
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/homework/src/nav_hw_interfaces -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces
+[1.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces -- -j8 -l8
+[2.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/srv_learning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep2/srv_learning -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/srv_learning
+[2.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/srv_learning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/srv_learning -- -j8 -l8
+[3.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson' returned '0': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson -- -j8 -l8
+[3.192s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'modern_cpp_opencv_lesson' because it has no 'install' target
+[3.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(modern_cpp_opencv_lesson)
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson' for CMake module files
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson' for CMake config files
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/bin'
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/lib/pkgconfig/modern_cpp_opencv_lesson.pc'
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/lib/python3.10/site-packages'
+[3.195s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/bin'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/share/modern_cpp_opencv_lesson/package.ps1'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/share/modern_cpp_opencv_lesson/package.dsv'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/share/modern_cpp_opencv_lesson/package.sh'
+[3.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/share/modern_cpp_opencv_lesson/package.bash'
+[3.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/share/modern_cpp_opencv_lesson/package.zsh'
+[3.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson/share/colcon-core/packages/modern_cpp_opencv_lesson)
+[3.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep2/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/turtlesim
+[3.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/turtlesim -- -j8 -l8
+[3.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces -- -j8 -l8
+[3.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces
+[3.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_hw_interfaces)
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces' for CMake module files
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces' for CMake config files
+[3.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_hw_interfaces', 'cmake_prefix_path')
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.ps1'
+[3.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.dsv'
+[3.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.sh'
+[3.814s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib'
+[3.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_hw_interfaces', 'ld_library_path_lib')
+[3.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.ps1'
+[3.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces
+[3.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.dsv'
+[3.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.sh'
+[3.815s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/bin'
+[3.816s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib/pkgconfig/nav_hw_interfaces.pc'
+[3.816s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib/python3.10/site-packages'
+[3.816s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/bin'
+[3.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.ps1'
+[3.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.dsv'
+[3.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.sh'
+[3.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.bash'
+[3.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.zsh'
+[3.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/colcon-core/packages/nav_hw_interfaces)
+[3.826s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_hw_interfaces)
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces' for CMake module files
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces' for CMake config files
+[3.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_hw_interfaces', 'cmake_prefix_path')
+[3.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.ps1'
+[3.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.dsv'
+[3.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/cmake_prefix_path.sh'
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib'
+[3.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_hw_interfaces', 'ld_library_path_lib')
+[3.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.ps1'
+[3.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.dsv'
+[3.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/hook/ld_library_path_lib.sh'
+[3.832s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/bin'
+[3.832s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib/pkgconfig/nav_hw_interfaces.pc'
+[3.833s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib/python3.10/site-packages'
+[3.833s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/bin'
+[3.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.ps1'
+[3.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.dsv'
+[3.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.sh'
+[3.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.bash'
+[3.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/nav_hw_interfaces/package.zsh'
+[3.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/share/colcon-core/packages/nav_hw_interfaces)
+[3.840s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/homework/src/qos_debugger' with build type 'ament_cmake'
+[3.844s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture4/homework/src/qos_debugger'
+[3.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/qos_debugger': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/homework/src/qos_debugger -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/qos_debugger
+[4.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/learning_node -- -j8 -l8
+[4.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/learning_node
+[4.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node)
+[4.956s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node' for CMake module files
+[4.957s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node' for CMake config files
+[4.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'cmake_prefix_path')
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/hook/cmake_prefix_path.ps1'
+[4.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/learning_node
+[4.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/hook/cmake_prefix_path.dsv'
+[4.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/hook/cmake_prefix_path.sh'
+[4.958s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/lib'
+[4.958s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/bin'
+[4.958s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/lib/pkgconfig/learning_node.pc'
+[4.958s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/lib/python3.10/site-packages'
+[4.958s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/bin'
+[4.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.ps1'
+[4.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.dsv'
+[4.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.sh'
+[4.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.bash'
+[4.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.zsh'
+[4.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/learning_node/share/colcon-core/packages/learning_node)
+[4.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node)
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node' for CMake module files
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node' for CMake config files
+[4.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'cmake_prefix_path')
+[4.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/hook/cmake_prefix_path.ps1'
+[4.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/hook/cmake_prefix_path.dsv'
+[4.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/hook/cmake_prefix_path.sh'
+[4.972s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/lib'
+[4.972s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/bin'
+[4.972s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/lib/pkgconfig/learning_node.pc'
+[4.972s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/lib/python3.10/site-packages'
+[4.972s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/learning_node/bin'
+[4.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.ps1'
+[4.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.dsv'
+[4.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.sh'
+[4.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.bash'
+[4.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/learning_node/share/learning_node/package.zsh'
+[4.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/learning_node/share/colcon-core/packages/learning_node)
+[5.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/homework/src/qos_debugger -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/qos_debugger
+[5.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/qos_debugger': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/qos_debugger -- -j8 -l8
+[6.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/topic_learning_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/topic_learning_pub -- -j8 -l8
+[6.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/topic_learning_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/topic_learning_pub
+[6.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_learning_pub)
+[6.189s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub' for CMake module files
+[6.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/topic_learning_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/topic_learning_pub
+[6.190s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub' for CMake config files
+[6.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_learning_pub', 'cmake_prefix_path')
+[6.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/hook/cmake_prefix_path.ps1'
+[6.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/hook/cmake_prefix_path.dsv'
+[6.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/hook/cmake_prefix_path.sh'
+[6.195s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/lib'
+[6.195s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/bin'
+[6.195s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/lib/pkgconfig/topic_learning_pub.pc'
+[6.195s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/lib/python3.10/site-packages'
+[6.195s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/bin'
+[6.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.ps1'
+[6.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.dsv'
+[6.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.sh'
+[6.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.bash'
+[6.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.zsh'
+[6.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/colcon-core/packages/topic_learning_pub)
+[6.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_learning_pub)
+[6.202s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub' for CMake module files
+[6.203s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub' for CMake config files
+[6.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_learning_pub', 'cmake_prefix_path')
+[6.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/hook/cmake_prefix_path.ps1'
+[6.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/hook/cmake_prefix_path.dsv'
+[6.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/hook/cmake_prefix_path.sh'
+[6.209s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/lib'
+[6.209s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/bin'
+[6.209s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/lib/pkgconfig/topic_learning_pub.pc'
+[6.209s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/lib/python3.10/site-packages'
+[6.210s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/bin'
+[6.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.ps1'
+[6.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.dsv'
+[6.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.sh'
+[6.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.bash'
+[6.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/topic_learning_pub/package.zsh'
+[6.221s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/topic_learning_pub/share/colcon-core/packages/topic_learning_pub)
+[6.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep3/launch_learning' with build type 'ament_cmake'
+[6.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm/sp_vision_tutorial_27/lecture4/src/ep3/launch_learning'
+[6.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/launch_learning': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:/opt/ros/humble PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep3/launch_learning -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/launch_learning
+[6.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/srv_learning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/srv_learning -- -j8 -l8
+[6.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/srv_learning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/srv_learning
+[6.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_learning)
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning' for CMake module files
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning' for CMake config files
+[6.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_learning', 'cmake_prefix_path')
+[6.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/hook/cmake_prefix_path.ps1'
+[6.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/srv_learning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/srv_learning
+[6.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/hook/cmake_prefix_path.dsv'
+[6.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/hook/cmake_prefix_path.sh'
+[6.362s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/lib'
+[6.362s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/bin'
+[6.362s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/lib/pkgconfig/srv_learning.pc'
+[6.362s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/lib/python3.10/site-packages'
+[6.362s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/bin'
+[6.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.ps1'
+[6.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.dsv'
+[6.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.sh'
+[6.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.bash'
+[6.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.zsh'
+[6.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/srv_learning/share/colcon-core/packages/srv_learning)
+[6.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_learning)
+[6.365s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning' for CMake module files
+[6.365s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning' for CMake config files
+[6.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_learning', 'cmake_prefix_path')
+[6.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/hook/cmake_prefix_path.ps1'
+[6.366s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/hook/cmake_prefix_path.dsv'
+[6.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/hook/cmake_prefix_path.sh'
+[6.369s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/lib'
+[6.369s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/bin'
+[6.369s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/lib/pkgconfig/srv_learning.pc'
+[6.369s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/lib/python3.10/site-packages'
+[6.369s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/srv_learning/bin'
+[6.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.ps1'
+[6.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.dsv'
+[6.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.sh'
+[6.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.bash'
+[6.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/srv_learning/share/srv_learning/package.zsh'
+[6.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/srv_learning/share/colcon-core/packages/srv_learning)
+[7.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/launch_learning' returned '0': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:/opt/ros/humble PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep3/launch_learning -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/launch_learning
+[7.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/launch_learning': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:/opt/ros/humble PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/launch_learning -- -j8 -l8
+[7.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/launch_learning' returned '0': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:/opt/ros/humble PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/launch_learning -- -j8 -l8
+[7.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/launch_learning': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:/opt/ros/humble PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/launch_learning
+[7.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_learning)
+[7.294s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning' for CMake module files
+[7.294s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning' for CMake config files
+[7.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_learning', 'cmake_prefix_path')
+[7.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/hook/cmake_prefix_path.ps1'
+[7.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/hook/cmake_prefix_path.dsv'
+[7.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/hook/cmake_prefix_path.sh'
+[7.295s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning/bin'
+[7.295s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning/lib/pkgconfig/launch_learning.pc'
+[7.295s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning/lib/python3.10/site-packages'
+[7.296s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning/bin'
+[7.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.ps1'
+[7.296s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.dsv'
+[7.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/launch_learning' returned '0': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_pub:/opt/ros/humble PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/topic_learning_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/launch_learning
+[7.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.sh'
+[7.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.bash'
+[7.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.zsh'
+[7.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/launch_learning/share/colcon-core/packages/launch_learning)
+[7.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_learning)
+[7.305s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning' for CMake module files
+[7.305s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning' for CMake config files
+[7.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_learning', 'cmake_prefix_path')
+[7.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/hook/cmake_prefix_path.ps1'
+[7.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/hook/cmake_prefix_path.dsv'
+[7.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/hook/cmake_prefix_path.sh'
+[7.310s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning/bin'
+[7.310s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning/lib/pkgconfig/launch_learning.pc'
+[7.310s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning/lib/python3.10/site-packages'
+[7.310s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/launch_learning/bin'
+[7.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.ps1'
+[7.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.dsv'
+[7.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.sh'
+[7.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.bash'
+[7.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/launch_learning/share/launch_learning/package.zsh'
+[7.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/launch_learning/share/colcon-core/packages/launch_learning)
+[14.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/qos_debugger -- -j8 -l8
+[14.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/qos_debugger': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/qos_debugger
+[14.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qos_debugger)
+[14.121s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger' for CMake module files
+[14.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/qos_debugger
+[14.121s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger' for CMake config files
+[14.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_debugger', 'cmake_prefix_path')
+[14.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.ps1'
+[14.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.dsv'
+[14.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.sh'
+[14.123s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/lib'
+[14.123s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/bin'
+[14.123s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/lib/pkgconfig/qos_debugger.pc'
+[14.123s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/lib/python3.10/site-packages'
+[14.123s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/bin'
+[14.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.ps1'
+[14.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.dsv'
+[14.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.sh'
+[14.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.bash'
+[14.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.zsh'
+[14.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/colcon-core/packages/qos_debugger)
+[14.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qos_debugger)
+[14.125s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger' for CMake module files
+[14.126s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger' for CMake config files
+[14.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_debugger', 'cmake_prefix_path')
+[14.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.ps1'
+[14.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.dsv'
+[14.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.sh'
+[14.127s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/lib'
+[14.127s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/bin'
+[14.127s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/lib/pkgconfig/qos_debugger.pc'
+[14.127s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/lib/python3.10/site-packages'
+[14.127s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/qos_debugger/bin'
+[14.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.ps1'
+[14.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.dsv'
+[14.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.sh'
+[14.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.bash'
+[14.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/qos_debugger/package.zsh'
+[14.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/qos_debugger/share/colcon-core/packages/qos_debugger)
+[18.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/turtlesim -- -j8 -l8
+[18.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm/sp_vision_tutorial_27/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/turtlesim
+[18.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[18.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm/sp_vision_tutorial_27/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/turtlesim
+[18.507s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim' for CMake module files
+[18.507s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim' for CMake config files
+[18.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[18.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[18.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[18.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[18.509s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/lib'
+[18.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[18.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[18.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[18.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[18.509s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/bin'
+[18.510s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[18.510s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/lib/python3.10/site-packages'
+[18.510s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/bin'
+[18.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.ps1'
+[18.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.dsv'
+[18.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.sh'
+[18.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.bash'
+[18.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.zsh'
+[18.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/turtlesim/share/colcon-core/packages/turtlesim)
+[18.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[18.512s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim' for CMake module files
+[18.513s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim' for CMake config files
+[18.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[18.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[18.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[18.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[18.519s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/lib'
+[18.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[18.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[18.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[18.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[18.520s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/bin'
+[18.520s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[18.520s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/lib/python3.10/site-packages'
+[18.520s] Level 1:colcon.colcon_core.environment:checking '/home/rm/sp_vision_tutorial_27/install/turtlesim/bin'
+[18.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.ps1'
+[18.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.dsv'
+[18.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.sh'
+[18.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.bash'
+[18.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm/sp_vision_tutorial_27/install/turtlesim/share/turtlesim/package.zsh'
+[18.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm/sp_vision_tutorial_27/install/turtlesim/share/colcon-core/packages/turtlesim)
+[18.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.523s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.523s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.528s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.528s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.528s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.539s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rm/sp_vision_tutorial_27/install/local_setup.ps1'
+[18.541s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rm/sp_vision_tutorial_27/install/_local_setup_util_ps1.py'
+[18.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rm/sp_vision_tutorial_27/install/setup.ps1'
+[18.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rm/sp_vision_tutorial_27/install/local_setup.sh'
+[18.542s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rm/sp_vision_tutorial_27/install/_local_setup_util_sh.py'
+[18.543s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rm/sp_vision_tutorial_27/install/setup.sh'
+[18.543s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rm/sp_vision_tutorial_27/install/local_setup.bash'
+[18.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rm/sp_vision_tutorial_27/install/setup.bash'
+[18.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rm/sp_vision_tutorial_27/install/local_setup.zsh'
+[18.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rm/sp_vision_tutorial_27/install/setup.zsh'

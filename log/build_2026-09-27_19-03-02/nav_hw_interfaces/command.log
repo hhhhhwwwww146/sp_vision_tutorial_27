@@ -1,0 +1,6 @@
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/homework/src/nav_hw_interfaces -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/homework/src/nav_hw_interfaces -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/nav_hw_interfaces
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces -- -j8 -l8
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces -- -j8 -l8
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/nav_hw_interfaces

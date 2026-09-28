@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_service[0m
+[ 50%] Built target add_two_ints_client
+[100%] Built target add_two_ints_service
+-- Install configuration: ""
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/lib/srv_learning/add_two_ints_service
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/lib/srv_learning/add_two_ints_client
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/ament_index/resource_index/package_run_dependencies/srv_learning
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/ament_index/resource_index/parent_prefix_path/srv_learning
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/environment/path.sh
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/environment/path.dsv
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/local_setup.bash
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/local_setup.sh
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/local_setup.zsh
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/local_setup.dsv
+-- Installing: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/package.dsv
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/ament_index/resource_index/packages/srv_learning
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/cmake/srv_learningConfig.cmake
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/cmake/srv_learningConfig-version.cmake
+-- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/package.xml

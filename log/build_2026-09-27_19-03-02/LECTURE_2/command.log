@@ -1,0 +1,4 @@
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/LECTURE_2': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture2 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/LECTURE_2
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/LECTURE_2' returned '0': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture2 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/LECTURE_2
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/LECTURE_2': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/LECTURE_2 -- -j8 -l8
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/LECTURE_2' returned '0': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/LECTURE_2 -- -j8 -l8

@@ -1,0 +1,4 @@
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture3 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson' returned '0': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture3 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson -- -j8 -l8
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson' returned '0': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson -- -j8 -l8

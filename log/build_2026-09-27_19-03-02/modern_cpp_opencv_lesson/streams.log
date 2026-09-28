@@ -1,0 +1,41 @@
+[0.294s] Invoking command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture3 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson
+[0.353s] -- The CXX compiler identification is GNU 11.4.0
+[0.356s] -- Detecting CXX compiler ABI info
+[0.455s] -- Detecting CXX compiler ABI info - done
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.458s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.464s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") found components: core imgproc highgui 
+[0.467s] -- Looking for C++ include pthread.h
+[0.615s] -- Looking for C++ include pthread.h - found
+[0.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.770s] -- Found Threads: TRUE  
+[0.771s] -- Configuring done
+[0.776s] -- Generating done
+[0.779s] -- Build files have been written to: /home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson
+[0.812s] Invoked command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson' returned '0': /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture3 -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/modern_cpp_opencv_lesson
+[0.818s] Invoking command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson -- -j8 -l8
+[0.883s] [  8%] [32mBuilding CXX object cmake/ex2/CMakeFiles/ex2.dir/main.cpp.o[0m
+[0.883s] [ 16%] [32mBuilding CXX object cmake/ex1/CMakeFiles/ex1.dir/main.cpp.o[0m
+[0.896s] [ 41%] [32mBuilding CXX object cmake/demos/CMakeFiles/lifetime.dir/lifetime.cpp.o[0m
+[0.899s] [ 41%] [32mBuilding CXX object cmake/ex3/CMakeFiles/ex3.dir/main.cpp.o[0m
+[0.899s] [ 41%] [32mBuilding CXX object cmake/ex4/CMakeFiles/ex4.dir/main.cpp.o[0m
+[0.899s] [ 50%] [32mBuilding CXX object cmake/demos/CMakeFiles/lambda.dir/lambda.cpp.o[0m
+[1.096s] [01m[K/home/rm/sp_vision_tutorial_27/lecture3/ex1/main.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[1.096s] [01m[K/home/rm/sp_vision_tutorial_27/lecture3/ex1/main.cpp:6:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.096s]     6 |   int [01;35m[Kx[m[K = 42;
+[1.096s]       |       [01;35m[K^[m[K
+[1.166s] [ 58%] [32m[1mLinking CXX executable ../../ex2[0m
+[1.202s] [ 66%] [32m[1mLinking CXX executable ../../lifetime[0m
+[1.224s] [ 75%] [32m[1mLinking CXX executable ../../lambda[0m
+[1.227s] [ 83%] [32m[1mLinking CXX executable ../../ex1[0m
+[1.251s] [ 83%] Built target ex2
+[1.288s] [ 91%] [32m[1mLinking CXX executable ../../ex4[0m
+[1.299s] [ 91%] Built target lifetime
+[1.307s] [ 91%] Built target ex1
+[1.328s] [ 91%] Built target lambda
+[1.369s] [ 91%] Built target ex4
+[2.471s] [100%] [32m[1mLinking CXX executable ../../ex3[0m
+[2.903s] [100%] Built target ex3
+[2.920s] Invoked command in '/home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson' returned '0': /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/modern_cpp_opencv_lesson -- -j8 -l8

@@ -1,0 +1,4 @@
+[01m[K/home/rm/sp_vision_tutorial_27/lecture3/ex1/main.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/rm/sp_vision_tutorial_27/lecture3/ex1/main.cpp:6:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+    6 |   int [01;35m[Kx[m[K = 42;
+      |       [01;35m[K^[m[K

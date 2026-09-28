@@ -53,7 +53,7 @@ Camera::Camera()
     MV_CC_SetEnumValue(handle_, "GainAuto", MV_GAIN_MODE_OFF);
     MV_CC_SetFloatValue(handle_, "ExposureTime", 10000);
     MV_CC_SetFloatValue(handle_, "Gain", 20);
-    MV_CC_SetFrameRate(handle_, 60);
+    MV_CC_SetFrameRate(handle_, 30);
 
     ret = MV_CC_StartGrabbing(handle_);
     if (ret != MV_OK) {
@@ -71,7 +71,12 @@ Camera::~Camera()
 cv::Mat Camera::read() 
 {
     MV_FRAME_OUT raw;
-    unsigned int nMsec = 100;
+    unsigned int nMsec = 10;
+    MV_FRAME_OUT tmp_raw;
+    while (MV_CC_GetImageBuffer(handle_, &tmp_raw, 0) == MV_OK) 
+    {
+    MV_CC_FreeImageBuffer(handle_, &tmp_raw);
+    }
 
     int ret = MV_CC_GetImageBuffer(handle_, &raw, nMsec);
     if (ret != MV_OK) {

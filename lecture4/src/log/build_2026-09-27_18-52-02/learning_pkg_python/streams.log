@@ -1,0 +1,33 @@
+[0.583s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_python': PYTHONPATH=/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/learning_pkg_python build --build-base /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/build install --record /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/install.log --install-scripts $base/lib/learning_pkg_python --single-version-externally-managed install_data
+[0.734s] running egg_info
+[0.734s] creating ../build/learning_pkg_python/learning_pkg_python.egg-info
+[0.734s] writing ../build/learning_pkg_python/learning_pkg_python.egg-info/PKG-INFO
+[0.735s] writing dependency_links to ../build/learning_pkg_python/learning_pkg_python.egg-info/dependency_links.txt
+[0.735s] writing entry points to ../build/learning_pkg_python/learning_pkg_python.egg-info/entry_points.txt
+[0.735s] writing requirements to ../build/learning_pkg_python/learning_pkg_python.egg-info/requires.txt
+[0.735s] writing top-level names to ../build/learning_pkg_python/learning_pkg_python.egg-info/top_level.txt
+[0.735s] writing manifest file '../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[0.737s] reading manifest file '../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[0.737s] writing manifest file '../build/learning_pkg_python/learning_pkg_python.egg-info/SOURCES.txt'
+[0.737s] running build
+[0.738s] running build_py
+[0.738s] creating /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/build
+[0.738s] creating /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/build/lib
+[0.738s] creating /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/build/lib/learning_pkg_python
+[0.738s] copying learning_pkg_python/__init__.py -> /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/build/lib/learning_pkg_python
+[0.738s] running install
+[0.738s] running install_lib
+[0.739s] creating /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python
+[0.742s] copying /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/build/lib/learning_pkg_python/__init__.py -> /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python
+[0.742s] byte-compiling /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python/__init__.py to __init__.cpython-310.pyc
+[0.742s] running install_data
+[0.742s] creating /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/share/ament_index
+[0.742s] creating /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/share/ament_index/resource_index
+[0.742s] creating /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/share/ament_index/resource_index/packages
+[0.742s] copying resource/learning_pkg_python -> /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/share/ament_index/resource_index/packages
+[0.742s] copying package.xml -> /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/share/learning_pkg_python
+[0.742s] running install_egg_info
+[0.742s] Copying ../build/learning_pkg_python/learning_pkg_python.egg-info to /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/lib/python3.10/site-packages/learning_pkg_python-0.0.0-py3.10.egg-info
+[0.742s] running install_scripts
+[0.762s] writing list of installed files to '/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/install.log'
+[0.779s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/src/learning_pkg_python' returned '0': PYTHONPATH=/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/learning_pkg_python build --build-base /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/build install --record /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_pkg_python/install.log --install-scripts $base/lib/learning_pkg_python --single-version-externally-managed install_data

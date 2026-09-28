@@ -1,0 +1,30 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rm/sp_vision_tutorial_27/build/LECTURE_2
+[ 10%] [32mBuilding CXX object CMakeFiles/cmake_learn.dir/part_1/src/cmake_learn.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ex2.dir/part_2/ex2/example2.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/ex3.dir/part_2/ex3/ex3.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ex1.dir/part_2/ex1/example1.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ex3.dir/part_2/ex3/car.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/cmake_learn.dir/part_1/tools/hello.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable ex3[0m
+[ 80%] [32m[1mLinking CXX executable ex2[0m
+[ 90%] [32m[1mLinking CXX executable cmake_learn[0m
+[ 90%] Built target ex2
+[100%] [32m[1mLinking CXX executable ex1[0m
+[100%] Built target cmake_learn
+[100%] Built target ex3
+[100%] Built target ex1

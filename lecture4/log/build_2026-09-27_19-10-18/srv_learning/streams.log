@@ -1,0 +1,26 @@
+[0.334s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/build/srv_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/lecture4/build/srv_learning -- -j8 -l8
+[0.380s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[0.380s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_service[0m
+[0.392s] [ 50%] Built target add_two_ints_client
+[0.394s] [100%] Built target add_two_ints_service
+[0.489s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/build/srv_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/lecture4/build/srv_learning -- -j8 -l8
+[0.490s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/build/srv_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/lecture4/build/srv_learning
+[0.521s] -- Install configuration: ""
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/lib/srv_learning/add_two_ints_service
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/lib/srv_learning/add_two_ints_client
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/ament_index/resource_index/package_run_dependencies/srv_learning
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/ament_index/resource_index/parent_prefix_path/srv_learning
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/environment/ament_prefix_path.sh
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/environment/ament_prefix_path.dsv
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/environment/path.sh
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/environment/path.dsv
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/local_setup.bash
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/local_setup.sh
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/local_setup.zsh
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/local_setup.dsv
+[0.521s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/package.dsv
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/ament_index/resource_index/packages/srv_learning
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/cmake/srv_learningConfig.cmake
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/cmake/srv_learningConfig-version.cmake
+[0.521s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/srv_learning/share/srv_learning/package.xml
+[0.525s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/build/srv_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/lecture4/build/srv_learning

@@ -1,0 +1,68 @@
+[0.154s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node
+[0.296s] -- The C compiler identification is GNU 11.4.0
+[0.296s] -- The CXX compiler identification is GNU 11.4.0
+[0.296s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.436s] -- Detecting CXX compile features
+[0.437s] -- Detecting CXX compile features - done
+[0.444s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.560s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.641s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.690s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.696s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.711s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.813s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.900s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.916s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.939s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.951s] -- Looking for pthread.h
+[1.027s] -- Looking for pthread.h - found
+[1.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.087s] -- Found Threads: TRUE  
+[1.130s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.184s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.184s] -- Configured cppcheck include dirs: 
+[1.185s] -- Configured cppcheck exclude dirs and/or files: 
+[1.185s] -- Added test 'lint_cmake' to check CMake code style
+[1.185s] -- Added test 'uncrustify' to check C / C++ code style
+[1.185s] -- Configured uncrustify additional arguments: 
+[1.185s] -- Added test 'xmllint' to check XML markup files
+[1.185s] -- Configuring done
+[1.188s] -- Generating done
+[1.190s] -- Build files have been written to: /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node
+[1.197s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node
+[1.198s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node -- -j8 -l8
+[1.244s] [ 50%] [32mBuilding CXX object CMakeFiles/helloworld_node.dir/src/helloworld_node.cpp.o[0m
+[5.935s] [100%] [32m[1mLinking CXX executable helloworld_node[0m
+[6.177s] [100%] Built target helloworld_node
+[6.209s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node -- -j8 -l8
+[6.213s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node
+[6.230s] -- Install configuration: ""
+[6.230s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/lib/learning_node/helloworld_node
+[6.237s] -- Set runtime path of "/home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/lib/learning_node/helloworld_node" to ""
+[6.237s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/ament_index/resource_index/package_run_dependencies/learning_node
+[6.237s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/ament_index/resource_index/parent_prefix_path/learning_node
+[6.237s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/environment/ament_prefix_path.sh
+[6.237s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/environment/ament_prefix_path.dsv
+[6.237s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/environment/path.sh
+[6.237s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/environment/path.dsv
+[6.237s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/local_setup.bash
+[6.237s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/local_setup.sh
+[6.238s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/local_setup.zsh
+[6.238s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/local_setup.dsv
+[6.238s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/package.dsv
+[6.238s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/ament_index/resource_index/packages/learning_node
+[6.238s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/cmake/learning_nodeConfig.cmake
+[6.238s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/cmake/learning_nodeConfig-version.cmake
+[6.238s] -- Installing: /home/rm/sp_vision_tutorial_27/lecture4/src/install/learning_node/share/learning_node/package.xml
+[6.238s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/lecture4/src/build/learning_node

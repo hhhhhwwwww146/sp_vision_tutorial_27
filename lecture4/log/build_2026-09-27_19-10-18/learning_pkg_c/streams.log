@@ -1,0 +1,20 @@
+[0.171s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/build/learning_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/lecture4/build/learning_pkg_c -- -j8 -l8
+[0.360s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/lecture4/build/learning_pkg_c -- -j8 -l8
+[0.361s] Invoking command in '/home/rm/sp_vision_tutorial_27/lecture4/build/learning_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/lecture4/build/learning_pkg_c
+[0.378s] -- Install configuration: ""
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/ament_index/resource_index/package_run_dependencies/learning_pkg_c
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/ament_index/resource_index/parent_prefix_path/learning_pkg_c
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.sh
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.dsv
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/environment/path.sh
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/environment/path.dsv
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/local_setup.bash
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/local_setup.sh
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/local_setup.zsh
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/local_setup.dsv
+[0.378s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/package.dsv
+[0.379s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/ament_index/resource_index/packages/learning_pkg_c
+[0.379s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig.cmake
+[0.379s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig-version.cmake
+[0.379s] -- Up-to-date: /home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_c/share/learning_pkg_c/package.xml
+[0.386s] Invoked command in '/home/rm/sp_vision_tutorial_27/lecture4/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rm/sp_vision_tutorial_27/lecture4/install/topic_learning_sub:/home/rm/sp_vision_tutorial_27/lecture4/install/learning_pkg_python:/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/lecture4/build/learning_pkg_c

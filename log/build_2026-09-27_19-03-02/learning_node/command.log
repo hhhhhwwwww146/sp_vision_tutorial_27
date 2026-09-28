@@ -1,0 +1,6 @@
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/learning_node
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm/sp_vision_tutorial_27/lecture4/src/ep1/learning_node -DCMAKE_INSTALL_PREFIX=/home/rm/sp_vision_tutorial_27/install/learning_node
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/learning_node -- -j8 -l8
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm/sp_vision_tutorial_27/build/learning_node -- -j8 -l8
+Invoking command in '/home/rm/sp_vision_tutorial_27/build/learning_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/learning_node
+Invoked command in '/home/rm/sp_vision_tutorial_27/build/learning_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rm/sp_vision_tutorial_27/build/learning_node
