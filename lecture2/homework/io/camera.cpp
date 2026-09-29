@@ -53,7 +53,7 @@ Camera::Camera()
     MV_CC_SetEnumValue(handle_, "GainAuto", MV_GAIN_MODE_OFF);
     MV_CC_SetFloatValue(handle_, "ExposureTime", 10000);
     MV_CC_SetFloatValue(handle_, "Gain", 20);
-    MV_CC_SetFrameRate(handle_, 30);
+    MV_CC_SetFrameRate(handle_, 15);
 
     ret = MV_CC_StartGrabbing(handle_);
     if (ret != MV_OK) {
