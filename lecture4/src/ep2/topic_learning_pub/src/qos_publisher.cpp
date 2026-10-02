@@ -16,7 +16,7 @@ public:
     // 配置 QoS：尽力而为（best_effort），队列深度 10
     auto qos = rclcpp::QoS(rclcpp::KeepLast(10));
     // qos.reliability(RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT);
-    qos.best_effort();
+    qos.reliable();
 
     publisher_ = this->create_publisher<std_msgs::msg::String>("qos_topic", qos);
     // 10Hz

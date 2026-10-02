@@ -17,9 +17,9 @@ public:
   SensorSubscriber()
       : Node("sensor_subscriber")
   {
-    this->declare_parameter("reliability", "reliable");
-    this->declare_parameter("depth", 10);
-    this->declare_parameter("callback_delay_ms", 30);
+    this->declare_parameter("reliability", "best_effort");
+    this->declare_parameter("depth", 100);
+    this->declare_parameter("callback_delay_ms", 0);
 
     reliability_ = this->get_parameter("reliability").as_string();
     depth_ = this->get_parameter("depth").as_int();
@@ -83,11 +83,8 @@ private:
 
   void topic_callback(const nav_hw_interfaces::msg::SensorData::SharedPtr msg)
   {
-    if (callback_delay_ms_ > 0)
-    {
-
-      std::this_thread::sleep_for(std::chrono::milliseconds(callback_delay_ms_));
-    }
+    //if (callback_delay_ms_ > 0)
+    //{std::this_thread::sleep_for(std::chrono::milliseconds(callback_delay_ms_));}
 
     if (!initialized_)
     {
@@ -128,10 +125,14 @@ private:
         "累计: 收到 %u 条, 丢失 %u 条, 丢包率 %.2f%%",
         received_count_, lost_count_, loss_rate);
 
-    /*
-    在这之间加入计算帧率并打印的代码
+    /* 在这之间加入计算频率并打印的代码 */
+      uint32_t current_received = received_count_;
+      uint32_t delta_count = current_received - last_received_count_;
+      double frequency = static_cast<double>(delta_count);
 
-    */
+      RCLCPP_INFO(this->get_logger(), "当前接收频率: %.2f Hz", frequency);
+
+      last_received_count_ = current_received;
   }
 
   rclcpp::Subscription<nav_hw_interfaces::msg::SensorData>::SharedPtr subscription_;

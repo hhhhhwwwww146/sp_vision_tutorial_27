@@ -9,7 +9,9 @@
 意味着什么。说明你的修改让一个 `Frame` 在进入队列后拥有什么，并解释为何后续读取
 不会再改变它。
 
-TODO(report)：在此作答。
+本项目中图像源为了模拟真实相机的行为，使用了一个可复用的内部缓冲区。
+‘cv::Mat’的普通复制是浅拷贝。仅仅复制了数据头Header，当复制品的底层数据被修改时，原图像像素也会被修改，这个时候已经进入队列的Frame的数据也会被篡改。
+我将‘frame_source.cpp’中的‘buffer_’变成了‘buffer_.clone()’，相当于进行了深拷贝，这样复制品被修改的时候，原像素不会发生改变，从而保证了图像数据的完整性。
 
 ## 2. 并发处理与恰好一次
 
@@ -17,14 +19,17 @@ TODO(report)：在此作答。
 为什么你的实现既不会漏掉已经入队的帧，也不会重复处理同一帧？输入耗尽时，正在等待
 以及仍在处理数据的 worker 分别会怎样？
 
-TODO(report)：在此作答。
+‘BlockingQueue’内部使用了‘std::mutex’这个锁来保护‘queue_’。当生产者调用‘push’时，会在锁的保护下将元素放入队列。当多个worker并发调用‘pop’时，‘pop’操作也是在锁的保护下进行的，并且使用的是‘std::move’来取走元素。
+输入耗尽时，‘producer_’循环结束并调用‘queue_.close()’。该方法会将‘closed_’置为true，并调用‘ready_.notify_all()’，从而唤醒所有正在等待的worker。此时正在等待的worker会从‘wait’中醒来，发现队列为空且‘closed_’为true，于是‘pop’返回false，worker正常退出。对于正在处理数据的worker，它们会先将当前帧处理完毕，然后在下一次循环调用‘pop’时正常退出。
 
 ## 3. 共享统计数据
 
 指出哪些线程会读写 `Statistics`。解释原实现中的竞争为什么可能导致错误结果，并说明
 你的同步方案提供了什么保证。还应说明取得快照时为什么是安全的。
 
-TODO(report)：在此作答。
+Producer 线程调用 `onProduced()`；多个 Worker 线程并发调用 `onProcessed()`、`onSaved()`、`onCorrupted()`；主线程或测试代码调用 `snapshot()` 读取快照。
+`deliberatelySlowIncrement` 将 `value++` 拆分为“读取-修改-写入”三步，并加入了 100 微秒的延迟。如果多个线程同时执行该操作，它们可能读到相同的旧值，导致写入时互相覆盖，最终计数偏小。同时，`snapshot()` 读取时也可能读到其他线程修改了一半的数据。
+我为 `Statistics` 类引入了一个 `std::mutex mtx_`。所有修改计数的操作，以及读取快照的 `snapshot()` 操作，都通过 `std::lock_guard<std::mutex>` 加锁保护。`snapshot()` 加锁保证了读取出来的四个计数器是同一时刻的一致性快照，避免了撕裂读取。
 
 ## 4. 线程关闭协议
 
@@ -36,6 +41,9 @@ TODO(report)：在此作答。
 
 如果你的实现允许某个生命周期方法被重复调用，也请说明其行为；如果不允许，请说明前置条件。
 
-TODO(report)：在此作答。
+1.调用者执行 `start()`，随后调用 `wait()`。此时 `wait()` 会阻塞在 `producer_.join()` 和各个 `worker.join()` 上。生产者会持续读取直到输入耗尽，调用 `queue_.close()`。Worker 消费完队列剩余元素后退出循环。所有线程退出后，`join` 返回，`wait()` 正常结束。不会发生 `std::terminate` 或悬空访问。
+2.调用者执行 `start()` 后直接触发析构函数。析构函数实现会首先调用 `queue_.close()`。这会阻止生产者继续 push，并唤醒所有阻塞在 `pop` 上的 worker。随后析构函数依次检查 `producer_.joinable()` 和 `worker.joinable()` 并调用 `join()` 等待它们安全退出。这避免了 `std::thread` 在 joinable 状态下被销毁导致的 `std::terminate` 崩溃，也避免了线程永久等待。
+`start()` 不允许重复调用。会导致线程对象被重复赋值，引发异常。
+`wait()` 和析构函数可以重复调用。我通过在 `wait()` 和析构函数中判断 `if (joinable())`，确保同一个线程对象不会被多次 `join()`。
 
 

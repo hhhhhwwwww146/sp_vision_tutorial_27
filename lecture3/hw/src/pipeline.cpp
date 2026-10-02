@@ -37,7 +37,19 @@ Pipeline::Pipeline(std::unique_ptr<FrameSource> source, PipelineConfig config)
 
 Pipeline::~Pipeline()
 {
-    // TODO: Make sure Pipeline never destroys running threads.
+    queue_.close();
+    if(producer_.joinable())
+    {
+        producer_.join();
+    }
+    
+    for(auto &worker:workers_)
+    {
+        if(worker.joinable())
+        {
+            worker.join();
+        }
+    }
 }
 
 void Pipeline::start()

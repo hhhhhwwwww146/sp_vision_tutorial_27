@@ -1,0 +1,8 @@
+{
+"editor.formatOnSave": true,
+// 关闭c语⾔的⾃动格式化，防⽌对cubemx⽣成的代码进⾏更改
+"[c]": {
+"editor.formatOnSave": false,
+},
+// 其它设置...
+}

@@ -33,7 +33,6 @@ ros2 -h     //有忘记的命令就输入-h去查询用法
 提示：如果两个节点不能通过话题通信，我们应该如何区查看话题的详细信息（有没有相关的命令）
 任务一仅修复qos_debugger_pub.cpp的一处或几处代码即可完成
 
-
 ---
 
 ## 任务二：为什么收到的消息会丢包？/(ㄒoㄒ)/~~
@@ -47,6 +46,7 @@ ros2 -h     //有忘记的命令就输入-h去查询用法
 有没有什么命令可以查看节点的配置(ros2 param -h)
 可以通过修复qos_debugger_sub.cpp中的一处或几处代码解决该问题（可能会有多种解决方法）
 
+
 ## 任务三：把收到的消息的帧率计算并打印出来（放在定时器回调函数中每秒打印一次即可）
 补全qos_debugger_sub.cpp即可
 
@@ -54,5 +54,25 @@ ros2 -h     //有忘记的命令就输入-h去查询用法
 
 在下面按顺序完成三个任务，要求把用到的命令放入代码块中并讲解命令，每一问最好加入自己的理解
 
+1.
+![alt text](image-1.png)
+我将sub.cpp第20行的reliable改成了best_effort。
+![alt text](image-2.png)
+在排查收不到消息的问题时，我意识到 ROS2 的 QoS 机制非常严格。通过 ros2 topic info -v 查看后，我将订阅者的 reliability 策略修改为 best_effort 保持两端一致，通信立马就恢复了。这让我深刻理解了QoS的重要性。
 
+2.
+错误图像在任务一第二张图中已给出
+我把sub.cpp第21行的深度放大为100，并将22行的默认延迟改为0。根据ai提示，还将86-90行的sleep逻辑注释掉了
+![alt text](image-3.png)
+丢包是因为‘生产太快，消费太慢’，并且队列太浅。发布者每秒发 100 条，但订阅者每条都要 sleep 30 毫秒，并且队列只能存 10 条。通过加大 depth 并取消回调中的 sleep，丢包率降到了 0%。也可以用过 ros2 param get /sensor_subscriber depth 查看当前参数配置。
 
+3.
+uint32_t current_received = received_count_;
+uint32_t delta_count = current_received - last_received_count_;
+double frequency = static_cast<double>(delta_count);
+
+RCLCPP_INFO(this->get_logger(), "当前接收频率: %.2f Hz", frequency);
+
+last_received_count_ = current_received; 
+频率计算利用了定时器每秒触发一次 report() 的特性。我只需要用当前总接收数减去上一秒记录的数量，就能得到这一秒的增量，即频率。这让我学会了如何用 ROS2 的 create_wall_timer 来进行周期性的数据统计。
+![alt text](image-4.png)
