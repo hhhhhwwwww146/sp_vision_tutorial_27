@@ -76,3 +76,5 @@ RCLCPP_INFO(this->get_logger(), "当前接收频率: %.2f Hz", frequency);
 last_received_count_ = current_received; 
 频率计算利用了定时器每秒触发一次 report() 的特性。我只需要用当前总接收数减去上一秒记录的数量，就能得到这一秒的增量，即频率。这让我学会了如何用 ROS2 的 create_wall_timer 来进行周期性的数据统计。
 ![alt text](image-4.png)
+
+------
