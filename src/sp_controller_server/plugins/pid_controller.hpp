@@ -3,6 +3,7 @@
 
 #include <memory>
 #include <string>
+#include <vector>
 
 #include <geometry_msgs/msg/pose_stamped.hpp>
 #include <geometry_msgs/msg/twist.hpp>
@@ -21,7 +22,8 @@ public:
   ~PidController() override = default;
 
   void configure(
-    const rclcpp::Node::SharedPtr & node, const std::string & plugin_name,
+    const rclcpp::Node::SharedPtr & node,
+    const std::string & plugin_name,
     const std::shared_ptr<tf2_ros::Buffer> & tf_buffer) override;
 
   void setPlan(const nav_msgs::msg::Path & path) override;
@@ -36,6 +38,18 @@ private:
   rclcpp::Node::SharedPtr node_;
   nav_msgs::msg::Path global_plan_;
   std::string base_frame_id_;
+
+  double max_linear_speed_{0.35};
+  double min_linear_speed_{0.06};
+  double max_angular_speed_{1.0};
+  double lookahead_distance_{0.45};
+  double goal_tolerance_{0.10};
+  double yaw_tolerance_{0.12};
+  double rotate_to_path_angle_{0.65};
+  double linear_gain_{1.2};
+  double angular_gain_{1.8};
+
+  std::size_t last_target_index_{0};
 };
 
 }

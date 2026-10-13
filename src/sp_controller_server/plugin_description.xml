@@ -3,6 +3,8 @@
     name="PidController"
     type="pid_controller::PidController"
     base_class_type="sp_controller_server::ControllerPlugin">
-    <description>Student path-tracking controller plugin (skeleton).</description>
+    <description>
+      Pure-pursuit-style path tracking controller for narrow maze corridors.
+    </description>
   </class>
 </library>
