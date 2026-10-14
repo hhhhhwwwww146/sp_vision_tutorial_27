@@ -40,9 +40,13 @@ void AStarPlanner::configure(const rclcpp::Node::SharedPtr& node, const std::str
 
   lethal_cost_  = require_param<int>(node, plugin_name + ".lethal_cost");
   cost_weight_  = require_param<double>(node, plugin_name + ".cost_weight");
+  prevent_corner_cutting_ =
+    require_param<bool>(node, plugin_name + ".prevent_corner_cutting");
 
-  RCLCPP_INFO(logger_, "AStarPlanner configured: lethal_cost=%d cost_weight=%.3f",
-              lethal_cost_, cost_weight_);
+  RCLCPP_INFO(
+    logger_,
+    "AStarPlanner configured: lethal_cost=%d cost_weight=%.3f prevent_corner_cutting=%s",
+    lethal_cost_, cost_weight_, prevent_corner_cutting_ ? "true" : "false");
 }
 
 void AStarPlanner::setMap(const nav_msgs::msg::OccupancyGrid& costmap)
@@ -161,6 +165,17 @@ nav_msgs::msg::Path AStarPlanner::createPlan(
       int8_t c = map.data[ni];
       if (isBlocked(c)) continue;
 
+      // Do not move diagonally through the corner of two inflated obstacles.
+      // The simulator uses a finite square footprint, so a center-cell-only
+      // diagonal check can otherwise produce a geometrically impossible edge.
+      if (prevent_corner_cutting_ && k >= 4) {
+        const int side_x = idx(nx, cy);
+        const int side_y = idx(cx, ny);
+        if (isBlocked(map.data[side_x]) || isBlocked(map.data[side_y])) {
+          continue;
+        }
+      }
+
       double step = (k < 4) ? 1.0 : std::sqrt(2.0);
 
       double factor = cellCostFactor(c);
@@ -208,6 +223,24 @@ nav_msgs::msg::Path AStarPlanner::createPlan(
     ps.pose.position.z = 0.0;
     ps.pose.orientation.w = 1.0;
     path.poses.push_back(ps);
+  }
+
+  // Preserve the requested metric coordinates rather than stopping at the
+  // centers of the containing 5 cm grid cells.
+  if (!path.poses.empty()) {
+    path.poses.front().pose.position = start.pose.position;
+    path.poses.back().pose.position = goal.pose.position;
+
+    for (std::size_t i = 0; i + 1 < path.poses.size(); ++i) {
+      const double dx =
+        path.poses[i + 1].pose.position.x - path.poses[i].pose.position.x;
+      const double dy =
+        path.poses[i + 1].pose.position.y - path.poses[i].pose.position.y;
+      const double yaw = std::atan2(dy, dx);
+      path.poses[i].pose.orientation.z = std::sin(0.5 * yaw);
+      path.poses[i].pose.orientation.w = std::cos(0.5 * yaw);
+    }
+    path.poses.back().pose.orientation = goal.pose.orientation;
   }
 
   return path;

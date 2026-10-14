@@ -191,7 +191,9 @@ void ControllerServer::controlLoop()
     return;
   }
 
-  RCLCPP_WARN_THROTTLE(this->get_logger(), *this->get_clock(), 2000, "path_copy succeeded.");
+  RCLCPP_DEBUG_THROTTLE(
+    this->get_logger(), *this->get_clock(), 2000,
+    "Controller has an active path with %zu poses.", path_copy.poses.size());
 
   if (!controller_) {
     RCLCPP_WARN_THROTTLE(this->get_logger(), *this->get_clock(), 2000,

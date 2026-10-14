@@ -39,6 +39,7 @@ ament_target_dependencies(controller_server_core
 )
 
 add_library(controller_plugins SHARED
+  plugins/adaptive_pursuit_controller.cpp
   plugins/pid_controller.cpp
 )
 

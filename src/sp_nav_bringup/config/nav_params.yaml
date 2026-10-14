@@ -8,6 +8,7 @@ planner_server:
     AStar:
       lethal_cost: 60
       cost_weight: 3.0
+      prevent_corner_cutting: true
 
 esdf_map_publisher:
   ros__parameters:
@@ -15,8 +16,10 @@ esdf_map_publisher:
     frame_id: "map"
     publish_rate_hz: 1.0
     unknown_as_obstacle: false
-    robot_radius: 0.25
-    margin: 0.05
+    # The simulator chassis is a 0.50 m square. 0.36 m covers its half-diagonal
+    # while it rotates; the extra 0.04 m absorbs grid discretization.
+    robot_radius: 0.36
+    margin: 0.04
     d_safe: 0.70
     w: 12.0
     unknown_cost: 100
@@ -31,19 +34,23 @@ controller_server:
     cmd_vel_topic: "/sentry/cmd_vel"
     base_frame_id: "base_link"
     control_frequency: 30.0
-    plugin_name: "PidController"
-    plugin_type: "PidController"
-    PidController:
+    plugin_name: "AdaptivePursuit"
+    plugin_type: "sp_controller_server/AdaptivePursuitController"
+    AdaptivePursuit:
       base_frame_id: "base_link"
-      max_linear_speed: 0.30
-      min_linear_speed: 0.05
-      max_angular_speed: 0.90
-      lookahead_distance: 0.42
-      goal_tolerance: 0.10
-      yaw_tolerance: 0.15
-      rotate_to_path_angle: 0.65
-      linear_gain: 1.0
-      angular_gain: 1.8
+      max_linear_speed: 1.50
+      max_command_speed: 1.70
+      min_curve_speed: 0.48
+      max_lateral_acceleration: 0.90
+      max_deceleration: 1.55
+      lookahead_distance: 0.55
+      lookahead_time: 0.32
+      max_lookahead_distance: 1.05
+      curvature_window: 0.30
+      velocity_feedback_gain: 0.30
+      stopping_time: 0.72
+      max_terminal_speed: 0.60
+      goal_tolerance: 0.08
 
 sp_decision:
   ros__parameters:

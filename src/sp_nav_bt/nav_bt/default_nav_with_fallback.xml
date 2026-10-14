@@ -9,7 +9,7 @@
                  timeout_ms="50"
                  pose="{start_pose}"/>
       </nav_RateControl>
-      <nav_RateControl hz="10">
+      <nav_RateControl hz="2">
         <Fallback>
           <Sequence>
             <nav_ComputePathService service_name="make_plan"
@@ -39,7 +39,7 @@
         </Fallback>
       </nav_RateControl>
       <nav_NavStateTrack goal_pose="{goal_pose}"
-                     goal_tolerance="0.3"
+                     goal_tolerance="0.10"
                      remaining_distance="{remaining_distance}"
                      elapsed_time="{elapsed_time}"/>
     </nav_RepeatSequence>

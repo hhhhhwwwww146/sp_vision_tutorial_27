@@ -25,6 +25,7 @@ private:
 
   int lethal_cost_{100};
   double cost_weight_{2.0};
+  bool prevent_corner_cutting_{true};
 
   bool isBlocked(int8_t c) const;
   double cellCostFactor(int8_t c) const;

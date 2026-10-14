@@ -1,5 +1,14 @@
 <library path="controller_plugins">
   <class
+    name="sp_controller_server/AdaptivePursuitController"
+    type="adaptive_pursuit_controller::AdaptivePursuitController"
+    base_class_type="sp_controller_server::ControllerPlugin">
+    <description>
+      Holonomic path tracker with curvature-aware speed profiling, active braking,
+      and map-to-base velocity conversion for the rotating simulator frame.
+    </description>
+  </class>
+  <class
     name="PidController"
     type="pid_controller::PidController"
     base_class_type="sp_controller_server::ControllerPlugin">
